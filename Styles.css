@@ -15,6 +15,7 @@ p {
     background-color: white;
     padding: 20px 100px;
     font-size: 20px;
+    text-align: center;
 }
 
 table {
@@ -25,7 +26,7 @@ table {
 
 th {
     font-size: 20spx;
-    background-color: lightskyblue;
+    background-color: lightseagreen;
     border: 1px solid black;
 }
 
@@ -34,6 +35,12 @@ td {
     text-align: center;
 }
 
+img {
+    height: 25%;
+    width: 25%;
+    float: left;
+    padding: 5px;
+}
 
 
 
