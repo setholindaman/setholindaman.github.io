@@ -1,19 +1,20 @@
+
+
 h1 {
-    background-color: lightblue;
-    outline-color: black;
     text-align: center;
-    font-size: 50px;
-    color: rgb(0, 0, 0);
-    padding: 10px;
 }
 
 body {
-    background-color: lightblue;
+   background-image: url(https://live.staticflickr.com/3669/12866557143_2854c164f2_b.jpg);
+   background-size: 100% auto;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
 }
 
 p {
-    background-color: white;
-    padding: 20px 100px;
+    background-color: lightblue;
+    opacity: 0.8;
+    padding: 10px;
     font-size: 20px;
     text-align: center;
 }
@@ -24,6 +25,7 @@ table {
     width: 100%;
 }
 
+
 th {
     font-size: 20spx;
     background-color: lightseagreen;
@@ -31,21 +33,31 @@ th {
 }
 
 td {
+    background-color: lightblue;
     border: 1px solid black;
     text-align: center;
 }
 
 img {
-    height: 25%;
-    width: 25%;
+    max-width: 25%;
+    height: auto;
     float: left;
     padding: 5px;
+    border-radius: 15px;
 }
 
-
-
-@media (max-width: 600px) {
-    body {
-        width: 20px;
-    }
+footer {
+    text-align: right;
+    font-weight: 800;
+    color: black;
 }
+
+.box {
+    padding: 5px;
+    font-weight: 400;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    color: black;
+  }
+  
