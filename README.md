@@ -1,3 +1,3 @@
 # setholindaman.github.io
 
-## created my personal professional webpage
+### created my personal portfolio using HTML and CSS
