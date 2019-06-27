@@ -1,14 +1,36 @@
+a {
+    color: black;
+}
 
+/* .navbar {
+    width: 100%;
+} */
+
+li {
+    font-size: 20px;
+    color:black;
+    float: left;    
+}
+
+ul {
+    font-size:  20px;
+    color: black;
+}
 
 h1 {
     text-align: center;
 }
 
+h3 {
+    text-align: center;
+    color: whitesmoke;
+}
+
 body {
-   background-image: url(https://live.staticflickr.com/3669/12866557143_2854c164f2_b.jpg);
-   background-size: 100% auto;
-   background-repeat: no-repeat;
-   background-attachment: scroll;
+    background-image: url('coloradoRiver.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
 }
 
 p {
@@ -39,9 +61,9 @@ td {
 }
 
 img {
-    max-width: 25%;
+    max-width: 20%;
     height: auto;
-    float: left;
+    float: center;
     padding: 5px;
     border-radius: 15px;
 }
@@ -61,3 +83,8 @@ footer {
     color: black;
   }
   
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
