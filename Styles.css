@@ -3,7 +3,7 @@ a {
 }
 
 li {
-    font-size: 20px;
+    font-size: 13px;
     color:black;
     float: left;  
     opacity: 0.9;  
@@ -16,6 +16,7 @@ ul {
 
 h1 {
     text-align: center;
+    text-shadow: 2px 2px 2px blue;
 }
 
 h3 {
@@ -88,3 +89,15 @@ footer {
     margin-left: auto;
     margin-right: auto;
  }
+
+ @media (max-width: 480px) {
+     .navbar-nav {
+         position: absolute;
+     }
+     .box {
+        width: 100%,
+     }
+ }
+
+
+ /* ------------------------------------------------------------- */
